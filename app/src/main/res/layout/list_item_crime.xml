@@ -12,9 +12,9 @@
         android:text="Crime Title"/>
 
     <TextView
-        android:id="@+id/crime_data"
+        android:id="@+id/crime_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Crime Data"/>
+        android:text="Crime Date"/>
 
 </LinearLayout>

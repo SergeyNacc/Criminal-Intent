@@ -32,7 +32,7 @@ class CrimeFragment : Fragment() {
         dateButton = view.findViewById(R.id.crime_date) as Button
 
         dateButton.apply {
-            text = crime.data.toString()
+            text = crime.date.toString()
             isEnabled = false
         }
         return view
