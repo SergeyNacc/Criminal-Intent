@@ -42,6 +42,7 @@ class CrimeListFragment : Fragment() {
         return view
     }
 
+    //подключение адаптера к RecyclerView (установка объекта Adapter)
     private fun updateUI() {
         val crimes = crimeListViewModel.crimes
         adapter = CrimeAdapter(crimes)
@@ -62,6 +63,7 @@ class CrimeListFragment : Fragment() {
             itemView.setOnClickListener(this)
         }
 
+        //привязка холдера для обновления названия и даты
         fun bind(crime: Crime) {
             this.crime = crime
             titleTextView.text = this.crime.title
