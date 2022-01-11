@@ -5,6 +5,7 @@ import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import nacc.sergey.criminal_intent.Crime
 
+//база данных
 @Database(entities = [Crime::class], version = 1)
 @TypeConverters(CrimeTypeConverters::class)
 abstract class CrimeDatabase : RoomDatabase() {

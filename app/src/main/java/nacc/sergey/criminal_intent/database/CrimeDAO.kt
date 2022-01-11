@@ -5,7 +5,7 @@ import androidx.room.Query
 import nacc.sergey.criminal_intent.Crime
 import java.util.*
 
-
+//интерфейс для работы с базой данных
 @Dao
 interface CrimeDAO {
 
