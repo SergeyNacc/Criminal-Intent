@@ -8,5 +8,5 @@ class CrimeListViewModel : ViewModel() {
 
     //доступ к репозиторию
     private val crimeRepository = CrimeRepository.get()
-    val crimes = crimeRepository.getCrimes()
+    val crimeListLiveData = crimeRepository.getCrimes()
 }
